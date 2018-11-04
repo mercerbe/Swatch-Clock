@@ -1,0 +1,14 @@
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background: url("./images/paper-background.jpg");
+  z-index: -2;
+  background-size: cover;
+}
+
+
+/* TODO */
+/* media queries */
