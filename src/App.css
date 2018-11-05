@@ -7,8 +7,19 @@
   background: url("./images/paper-background.jpg");
   z-index: -2;
   background-size: cover;
+  font-weight: 100;
+}
+
+.blob {
+  font-size: 170px;
+  text-shadow: 2px 2px 2px black;
 }
 
 
-/* TODO */
+/* TODO:  */
 /* media queries */
+@media(max-width: 600px) {
+  .blob {
+    font-size: 70px;
+  }
+}
